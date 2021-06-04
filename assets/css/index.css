@@ -1,0 +1,361 @@
+body
+{
+	height: 200vh;
+}
+
+#menu
+{
+	background-color: rgba(0, 0, 0, 0.9);
+	padding-bottom: 3px;
+}
+
+#introGrid
+{
+	height: auto;
+	color: white;
+	text-align: center;
+	min-height: 110vh;
+}
+
+#contentGridDiv
+{
+	height: 100%;
+	padding-top: 20px;
+	/*background-color: rgba(0, 0, 0, 0.6);*/
+}
+#introImg
+{
+	height: 350px;
+	width: 300px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+#introGrid h1, #introGrid h4
+{
+	margin: 0 auto;
+}
+
+#contactDetails,#thought
+{
+	margin: 10px auto;
+}
+#introHeaders
+{
+	margin: 10px auto;
+}
+
+#socialMedia
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  /*  height: 100vh;*/
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    opacity: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mobileMenu
+{
+	display: none;
+}
+
+#qualificationsGrid
+{
+	height: auto;
+	background-image: url("../images/Qualifications/5.jpg");
+	background-size: cover;
+	position: relative;
+	color: white;
+    min-height: 110vh;
+	
+}
+#qualificationsHeaderDiv
+{
+	/*margin-left: 10%;*/
+	margin-top: 30px;
+	text-align: center;
+	z-index: 1000;
+
+}
+#backgroundColorDiv
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+#qualificationsContentRow
+{
+	margin-top: 20px;
+}
+
+#qualificationsContentRow hr
+{
+	width: 100%;
+}
+#qualificationsGrid div div div div div div
+{
+	line-height: 20px;
+}
+#qualificationsPunchLine
+{
+   margin: 10px 0;
+   text-align: left;
+   float: left;
+}
+
+#skillsGrid
+{
+	min-height: 110vh;
+	height: auto;
+	background-image: url(../images/Skills/3.jpg);
+	background-size: cover;
+}
+#skillsDiv
+{
+	font-size: 25px;
+	margin-left: 30%;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+#skillsDivHeader
+{
+	margin-top: 50px;
+	margin-left: 30%;
+	font-size: 80px;
+	text-decoration: underline;
+	font-weight: 900px;
+}
+#skillsDiv div
+{
+	line-height: 50px;
+}
+
+#skillsQuote,#asAChessPlayerQuote,#qualificationsPunchLine
+{
+	font-size: 18px;
+}
+#chessPlayerGrid
+{
+	min-height: 110vh;
+	height: auto;
+	background-image: url("../images/as_A_Chess_Player/11.jpg");
+	background-size: cover;
+	position: relative;
+	color: white;
+}
+#backgroundColorDivchessPlayer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+#chessPlayerHeader
+{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 60px;
+}
+
+#chessPlayerGrid p
+{
+	font-size: 18px;
+}
+
+#asAChessPlayerContentDiv
+{
+	margin-top: 55px;
+}
+#asAChessPlayerContentDiv div
+{
+   line-height: 22px;
+   margin-bottom: 30px;
+}
+
+#chessPlayerGrid hr
+{
+	width: 100%;
+    margin: 0px 100px;
+}
+
+#hobbiesGridDiv
+{
+	min-height: 110vh;
+	background-image: url("../images/hobbies/j.jpg");
+	background-size: cover;
+}
+
+#hobbiesHeaderDiv
+{
+	text-align: center;
+}
+#hobbiesHeaderDiv
+{
+	font-size: 60px;
+	margin-top: 50px;
+}
+#hobbiesContentRowDiv
+{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#hobbiesContentDiv
+{
+	/*text-align: center;*/
+	height: auto;
+	margin-left: 20%; 
+	margin-top: 30px;
+}
+#hobbiesContentDiv div
+{
+	font-size: 35px;
+	line-height: 70px;
+	height: auto;
+}
+#hobbiesQuoteRowDiv
+{
+   padding: 0;
+   margin: 0;
+}
+#hobbiesQuoteDiv
+{
+	margin-left: 17%;
+	font-size: 22px;
+	margin-top: 20px;
+}
+#sarcasmQxclamationIcon
+{
+	font-size: 26px;
+}
+/*Computer and Computer Screens*/
+@media  (min-width: 600px)  
+{
+	#introGrid
+	{
+		position: relative;
+        padding-top: 20vh;
+	}
+
+    #qualificationsHeaderDiv
+    {
+    	margin-top: 100px;
+    	margin-bottom: 30px;
+    	font-size: 60px; 
+    }
+
+ }
+
+
+/*Mobile screen begins*/
+@media only screen and (max-width: 600px)
+{
+   	#introGrid
+	{
+		position: relative;
+        padding-top: 10px;
+        margin-top: 30px;
+	}
+	#menu
+	{
+		display: none;
+	}
+
+	#mobileMenu
+	{
+		display: block;
+        position: fixed;
+        top: 10px;
+        z-index: 100000;
+	}
+	#hamburger
+	{
+		z-index: 100000;
+	}
+	#qualificationsGrid
+	{
+		margin-top: 0;
+		padding-left: 10px;
+		color: white;
+		background-image: url("../images/Qualifications/3.jpg");
+	}
+
+	 #qualificationsHeaderDiv
+	 {
+	 	width: 100%;
+	 	text-align: center;
+	 	font-size: 60px;
+	 	margin-bottom: 30px;
+	 	font-weight: bold;
+	 }
+	 #backgroundColorDiv
+	 {
+	 	/*display: none;*/
+	 	background-color: rgba(100, 100, 100, 0.2);
+	 }
+     
+     #skillsGrid
+     {
+     	background-image: url("../images/Skills/3.jpg");
+     }
+
+     #skillsQuote
+     {
+     	margin: 10px;
+     }
+     #chessPlayerGrid hr
+     {
+        margin: 10px;
+     }
+     #chessPlayerGrid p
+     {
+     	font-size: 15px;    	
+     }
+     #chessPlayerHeader
+     {
+     	margin-bottom: 3%;
+     }
+     #asAChessPlayerQuote
+     {
+     	margin: 10px;
+     }
+     #hobbiesContentDiv
+     {
+     	margin-left: 25%;
+     }
+     #hobbiesContentDiv div
+     {
+       font-size:25px;
+       line-height:50px;
+     }
+     #hobbiesQuoteDiv
+     {
+     	margin-left: 10px;
+     	font-size: 18px;
+     }
+
+}
+
